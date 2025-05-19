@@ -1,0 +1,31 @@
+# Step 1: Navigate to the folder containing your dataset
+cd /path/to/your/dataset
+
+# Step 2: Initialize Git repository (skip if already done)
+git init
+
+# Step 3: Add your GitHub repository as remote
+git remote add origin https://github.com/your-username/your-repo-name.git
+
+# Optional: Check remote URL to confirm
+git remote -v
+
+# Step 4: Move dataset file here if it's in another folder (optional)
+# mv /path/to/dataset.csv .
+
+# Step 5: Stage the dataset file for commit
+git add dataset.csv
+
+# Step 6: Commit the file with a message
+git commit -m "Add dataset.csv"
+
+# Step 7: Rename branch to main (if your repo uses 'main' branch)
+git branch -M main
+
+# Step 8: Push the commit to GitHub (first time push)
+git push -u origin main
+
+# For future updates, you only need to add, commit, and push:
+# git add <files>
+# git commit -m "Your message"
+# git push

@@ -5,7 +5,7 @@
     "colab": {
       "provenance": [],
       "mount_file_id": "1k-wmdAKqOUbwjnkyl__SYQ8fXyHDUofR",
-      "authorship_tag": "ABX9TyNeWzcYROvW5gY8ih9ylen4",
+      "authorship_tag": "ABX9TyM/yAepzyiN1r68Lp7diMZ0",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -30,8 +30,7 @@
     {
       "cell_type": "code",
       "source": [
-        "!pip install streamlit joblib numpy pandas  # ❌ Not valid in .py files\n",
-        "\n"
+        "!pip install streamlit joblib numpy pandas\n"
       ],
       "metadata": {
         "colab": {
